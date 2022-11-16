@@ -1,0 +1,5 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'e:/programs/golf game'
+g++ -Isrc/Include -Lsrc/lib -Isrc/res -o main main.cpp -lmingw32 -lSDL2main -lSDL2 -lSDL2_image 
+make: Leaving directory 'e:/programs/golf game'
+ 
