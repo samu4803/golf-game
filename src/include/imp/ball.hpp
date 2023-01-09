@@ -92,7 +92,7 @@ void ballAI::move(float initballX,float initballY,float initmouseX,float initmou
   for(i=d;i>0;i--)
   {
       // goal code
-  if ((initX>=goalX&&initX<=goalX+25)&&(initY>=goalY&&initY<=goalY+25))
+  if ((initX>=goalX&&initX-25<=goalX+25)&&(initY>=goalY-25&&initY<=goalY+25))
   {
     initX=goalX;
     initY=goalY;
